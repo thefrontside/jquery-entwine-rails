@@ -3,10 +3,13 @@
 
 in `Gemfile`
 
-  gem 'jquery-entwine-rails'
+    group :assets do
+      ...
+      gem 'jquery-entwine-rails'
+    end
 
 in `application.js`
 
-  //= require jquery.entwine
+    //= require jquery.entwine
 
 martini time.
